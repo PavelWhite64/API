@@ -130,7 +130,7 @@ public class AllTests {
                 .contentType(ContentType.JSON)
                 .body("", hasSize(3))
                 .body("[0].currency", equalTo("RUB"))
-                .body("[1].currency", equalTo("USD"))
+                .body("[1].currency", equalTo("USB"))
                 .body("[0].balance", greaterThanOrEqualTo(0))
         ;
     }
